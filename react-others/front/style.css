@@ -1,0 +1,34 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    padding: 20px;
+}
+
+.card > img{
+    width: 250px;
+    height: 250px;
+}
+  
+
+.Alive span {
+    background-color:  green;
+}
+
+.unknown span {
+    background-color:  rgb(143, 138, 138);
+}
+
+.Dead span {
+    background-color: red;
+}
